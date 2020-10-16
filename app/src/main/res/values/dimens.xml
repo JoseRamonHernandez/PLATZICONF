@@ -9,4 +9,5 @@
     <dimen name="altoImageViewHome">150dp</dimen>
     <dimen name="tamañoTitulo">20sp</dimen>
     <dimen name="marginHomeSubtitulo">10dp</dimen>
+    <dimen name="tamañoSubtitulo">15sp</dimen>
 </resources>
