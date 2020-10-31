@@ -58,6 +58,77 @@
                         android:layout_marginRight="@dimen/marginHomeSubtitulo"
                         android:layout_marginLeft="@dimen/marginHomeSubtitulo"
                         android:layout_marginTop="@dimen/marginHomeSubtitulo"/>
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/platzi_conf_2"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colorPrimary"
+                        android:layout_marginTop="10dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/inicio_frag_tv_por_que"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/tamañoTitulo"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:layout_marginRight="@dimen/marginHomeSubtitulo"
+                        android:layout_marginLeft="@dimen/marginHomeSubtitulo"
+                        android:layout_marginTop="@dimen/marginHomeSubtitulo"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colorPrimary"
+                        android:layout_marginTop="10dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/inicio_frag_tv_por_que_resp"
+                        android:textSize="@dimen/tamañoSubtitulo"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_marginRight="@dimen/marginHomeSubtitulo"
+                        android:layout_marginLeft="@dimen/marginHomeSubtitulo"
+                        android:layout_marginTop="@dimen/marginHomeSubtitulo"/>
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/platzi_conf_3"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colorPrimary"
+                        android:layout_marginTop="10dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/inicio_frag_tv_info"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/tamañoTitulo"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:layout_marginRight="@dimen/marginHomeSubtitulo"
+                        android:layout_marginLeft="@dimen/marginHomeSubtitulo"
+                        android:layout_marginTop="@dimen/marginHomeSubtitulo"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colorPrimary"
+                        android:layout_marginTop="10dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/inicio_frag_tv_info_resp"
+                        android:textSize="@dimen/tamañoSubtitulo"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_marginRight="@dimen/marginHomeSubtitulo"
+                        android:layout_marginLeft="@dimen/marginHomeSubtitulo"
+                        android:layout_marginTop="@dimen/marginHomeSubtitulo"/>
+                    <ImageView
+                        android:background="@color/colorPrimary"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/logo_platzi_conf"/>
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
