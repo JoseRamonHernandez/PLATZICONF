@@ -1,4 +1,4 @@
-package com.platzi.platziconf.ui.activities
+package com.platzi.platziconf.view.ui.activities
 
 import android.os.Bundle
 import com.google.android.material.floatingactionbutton.FloatingActionButton
