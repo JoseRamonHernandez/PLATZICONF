@@ -18,9 +18,6 @@ import com.platzi.platziconf.viewModel.ScheduleViewModel
 import kotlinx.android.synthetic.main.fragment_schedule.*
 
 
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
-
 
 class ScheduleFragment : Fragment(), ScheduleListener {
 
@@ -57,7 +54,7 @@ class ScheduleFragment : Fragment(), ScheduleListener {
 
     override fun onConferenceClicked(conference: Conference, position: Int) {
         val bundle = bundleOf("conference" to conference)
-        findNavController().navigate(R.id.ScheduleDetailDialogFragment, bundle)
+        findNavController().navigate(R.id.scheduleDetailFragmentDialog, bundle)
     }
 
 

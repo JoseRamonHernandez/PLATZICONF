@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.ui.Fragments.SheduleFragment">
+    tools:context=".view.ui.Fragments.SpeakersFragment">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvSpeakers"
