@@ -1,13 +1,14 @@
 package com.platzi.platziconf.viewModel
 
 import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
 import com.platzi.conf.model.Conference
 
 import com.platzi.platziconf.network.Callback
 import com.platzi.platziconf.network.FirestoreService
 import java.lang.Exception
 
-class ScheduleViewModel{
+class ScheduleViewModel: ViewModel(){
     val firestoreService = FirestoreService()
     val listSchedule: MutableLiveData<List<Conference>> = MutableLiveData()
     val isLoading = MutableLiveData<Boolean>()
